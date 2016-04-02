@@ -1,7 +1,23 @@
-= Build
+Asciidoctor Lightweight Docker Image
+==== 
 
- docker build -f asciidoctor -t sewatech/asciidoctor .
+Build
+----
 
-= Run
+    docker build -f asciidoctor -t sewatech/asciidoctor .
 
- docker run -it -v $PWD:/documents/ sewatech/asciidoctor
+Run
+----
+
+    docker run -it -v $PWD:/documents/ sewatech/asciidoctor
+
+Use
+----
+
+HTML with diagram
+
+    asciidoctor -r asciidoctor-diagram sample-with-diagram.adoc
+
+PDF with diagram
+
+    asciidoctor-pdf -r asciidoctor-diagram sample-with-diagram.adoc
