@@ -1,1 +1,1 @@
-docker build -f asciidoctor . -t sewatech/asciidoctor
+docker build -f asciidoctor -t sewatech/asciidoctor .
