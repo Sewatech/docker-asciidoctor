@@ -1,6 +1,17 @@
 Asciidoctor Lightweight Docker Image
 ==== 
 
+Content
+----
+
+Based on Alpine, the image provides :
+
+* Asciidoctor
+* Aciidoctor Diagram with blockdiag and graphviz, 
+* Asciidoctor PDF
+* CodeRay and Pygments (source code highlighting)
+* Asciidoctor backends
+
 Build
 ----
 
